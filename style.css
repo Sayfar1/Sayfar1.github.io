@@ -1,0 +1,37 @@
+body{
+	margin:0;
+	padding:0;
+	height:100vh;
+
+}	
+
+#particles-js{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(blue, gray);
+	background-blend-mode: overlay;
+}
+h1{
+	position: absolute;
+	color:white;
+	left:50%;
+	top: 30%;
+	transform: translate(-50%, -30%);
+	font-size: 50px;
+	font-weight: 500;
+	/*
+	letter-spacing: 3px;
+*/
+font-family: times new roman;
+}
+
+h2{
+	position: absolute;
+	color: yellow;
+	left:50%;
+	top: 38%;
+	transform: translate(-50%, -50%);
+	font-size: 45px;
+	font-weight: 500;
+}
